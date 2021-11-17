@@ -3,7 +3,8 @@ import java.util.*;
 
 class ExceptionHandling {
     public static void main(String args[])throws IOException{
-        int a, b, result;
+        int a, b; 
+        int result;
 
         Scanner sc = new Scanner(System.in);
 
@@ -16,7 +17,7 @@ class ExceptionHandling {
         try
         {
             result = a/b;
-            System.out.println("Quotient: " + result);
+            System.out.println("Quotention result : " + result);
         }
         catch(ArithmeticException e)
         {
